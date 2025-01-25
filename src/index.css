@@ -1,0 +1,30 @@
+.title {
+  color: red;
+}
+
+.header {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+}
+
+.brand-name {
+  font-size: 36px;
+  padding: 0.5rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+.links-container {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.links-container li a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+/* HOME */
