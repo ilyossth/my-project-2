@@ -5,15 +5,21 @@ const Counter = () => {
     
     const onPlusClick = () => {
         setCount(count +1)
+        
     }
 
     const onMinusClick = () => {
         setCount(count-1)        
     }
+    
+
+    
+
+
 
   return (
-    <div>
-        <h3>Counter</h3>
+    <div className="Card">
+        <h3 className="Counter">COUNTER</h3>
         <div className="counter-container">
             <button onClick={onMinusClick} >-</button>
             <span> { count } </span>
@@ -24,3 +30,5 @@ const Counter = () => {
 }
 
 export default Counter
+
+// 
